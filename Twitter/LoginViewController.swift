@@ -16,6 +16,11 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    @IBAction func onLoginButton(_ sender: Any) {
+        print("Hello World!")
+    }
+    
 
     /*
     // MARK: - Navigation
