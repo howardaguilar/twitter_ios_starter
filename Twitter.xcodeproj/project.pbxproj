@@ -16,6 +16,7 @@
 		911FAB7F23F3715200BCB882 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FAB7E23F3715200BCB882 /* LoginViewController.swift */; };
 		91632B7B23F4CC9A0077A5DD /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91632B7A23F4CC9A0077A5DD /* HomeTableViewController.swift */; };
 		91632B7D23F4DC410077A5DD /* TweetCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91632B7C23F4DC410077A5DD /* TweetCellTableViewCell.swift */; };
+		9193A99F24037FFE00929FD3 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193A99E24037FFE00929FD3 /* TweetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		911FAB7E23F3715200BCB882 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		91632B7A23F4CC9A0077A5DD /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		91632B7C23F4DC410077A5DD /* TweetCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellTableViewCell.swift; sourceTree = "<group>"; };
+		9193A99E24037FFE00929FD3 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		C2D685C92646819A9A0DC30C /* Pods-Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter/Pods-Twitter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				911FAB7E23F3715200BCB882 /* LoginViewController.swift */,
 				91632B7A23F4CC9A0077A5DD /* HomeTableViewController.swift */,
 				91632B7C23F4DC410077A5DD /* TweetCellTableViewCell.swift */,
+				9193A99E24037FFE00929FD3 /* TweetViewController.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			files = (
 				91632B7B23F4CC9A0077A5DD /* HomeTableViewController.swift in Sources */,
 				911FAB7F23F3715200BCB882 /* LoginViewController.swift in Sources */,
+				9193A99F24037FFE00929FD3 /* TweetViewController.swift in Sources */,
 				6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */,
 				91632B7D23F4DC410077A5DD /* TweetCellTableViewCell.swift in Sources */,
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
@@ -353,7 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EJTT2N9E3L;
+				DEVELOPMENT_TEAM = 9Q5FC45MUJ;
 				INFOPLIST_FILE = Twitter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -373,7 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EJTT2N9E3L;
+				DEVELOPMENT_TEAM = 9Q5FC45MUJ;
 				INFOPLIST_FILE = Twitter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
